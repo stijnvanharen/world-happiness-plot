@@ -1,5 +1,4 @@
 pandas
 geopandas
-math
 json
 bokeh
