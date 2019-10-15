@@ -40,7 +40,7 @@ format_df = pd.DataFrame(format_data, columns = ['field' , 'min_range', 'max_ran
 
 #Create merged DataFrame from geodata and hap_df
 merged = gdf.merge(hap_df, on = 'country_code', how = 'left')
-merged.fillna('No data', inplace = True)
+merged = merged.fillna('No data')
 
 #Read data to json.
 merged_json = json.loads(merged.to_json())
