@@ -16,7 +16,7 @@ from bokeh.palettes import brewer
 from bokeh.layouts import widgetbox, row, column
 
 hap_df = pd.read_pickle('hap_df.pkl')
-gdf = gpd.read_file("geodata/ne_110m_admin_0_countries.shp")[['ADMIN', 'ADM0_A3', 'geometry']]
+gdf = gpd.read_file("countries.geo.json")[['admin', 'adm0_a3', 'geometry']]
 gdf = gdf.drop(gdf.index[159])
 gdf.columns = ['country', 'country_code', 'geometry']
 
