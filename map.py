@@ -96,7 +96,7 @@ def make_plot(field_name):
     
     TOOLTIPS = [('Country','@country_x'),(str(verbage), '@'+str(field_name)+'{'+str(field_format)+'}')]
 
-    p = figure(title = None, plot_height = 550, plot_width = 1100, tooltips=TOOLTIPS)
+    p = figure(title = None, plot_height = 450, plot_width = 900, tooltips=TOOLTIPS)
     p.xgrid.grid_line_color = None
     p.ygrid.grid_line_color = None
     p.axis.visible = False
