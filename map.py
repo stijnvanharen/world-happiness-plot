@@ -129,8 +129,8 @@ select = Select(title='Select category:', value='World Happiness Report ranking'
                          'Total servings of wine per year',
                          'Total liters of alcohol per year',
                          'Number of restaurants in top 50',
-                         'Average yearly data scientist salary',
-                         'Average yearly data engineer salary',
+                         'Average yearly data scientist salary (€)',
+                         'Average yearly data engineer salary (€)',
                          'Number of Nobel prizes',
                          'Number of active satellites'
                         ])
