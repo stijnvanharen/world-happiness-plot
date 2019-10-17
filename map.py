@@ -40,6 +40,9 @@ format_df = pd.DataFrame(format_data, columns = ['field' , 'min_range', 'max_ran
 
 #Create merged DataFrame from geodata and hap_df
 merged = gdf.merge(hap_df, on = 'country_code', how = 'left')
+merged['rest_top_50_count'].replace({None : 0},inplace=True)
+merged['count_nob'].replace({None : 0},inplace=True)
+merged['count_sat'].replace({None : 0},inplace=True)
 merged.replace({None : 'No data'},inplace=True)
 
 #Read data to json.
