@@ -27,9 +27,9 @@ format_data = [('ladder', 1, 156, '0', 'World Happiness Report ranking', 'Greens
                ('wine_servings', 0, 380, '0', 'Total servings of wine per year', 'Reds', 9),
                ('total_litres_of_pure_alcohol', 0, 15, '0,0', 'Total liters of alcohol per year', 'RdPu', 9),
                ('rest_top_50_count', 0, 7, '0', 'Number of restaurants in top 50', 'Greens', 9),
-               ('data_scientist_av_salary', 17000, 300000, '$100,000', 
-                'Average yearly data scientist salary', 'Oranges', 9),
-               ('data_engineer_av_salary', 9000, 185000, '$100,000', 'Average yearly data engineer salary', 'Purples', 9),
+               ('data_scientist_av_salary', 17000, 260000, '100,000', 
+                'Average yearly data scientist salary (€)', 'Oranges', 9),
+               ('data_engineer_av_salary', 9000, 160000, '100,000', 'Average yearly data engineer salary (€)', 'Purples', 9),
                ('count_nob', 1, 276, '0', 'Number of Nobel prizes', 'BuGn', 9),
                ('count_sat', 1, 181, '0', 'Number of active satellites', 'YlOrRd', 9)              
               ]
